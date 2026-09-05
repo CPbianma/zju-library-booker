@@ -1,0 +1,11 @@
+# The persistent browser profile contains cookies, session storage, and tokens.
+.zju-booking-profile/
+node_modules/
+out/
+work/
+.env
+.env.*
+!.env.example
+__pycache__/
+*.pyc
+.pytest_cache/

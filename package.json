@@ -1,0 +1,38 @@
+{
+  "name": "zju-library-booking-api-client",
+  "productName": "ZJU Library Booker",
+  "version": "0.1.0",
+  "private": true,
+  "license": "MIT",
+  "author": "ZJU Library Booker contributors",
+  "description": "ZJU Library Booker 桌面查询与预约预览工具",
+  "type": "module",
+  "main": "./out/main/index.js",
+  "scripts": {
+    "dev": "electron-vite dev",
+    "build": "electron-vite build",
+    "preview": "electron-vite preview",
+    "typecheck": "tsc --noEmit",
+    "test": "node --test",
+    "start": "electron-vite preview",
+    "desktop": "electron-vite preview",
+    "cli": "node zju-booking.mjs"
+  },
+  "dependencies": {
+    "lucide-react": "^1.41.0",
+    "playwright": "latest",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
+    "zod": "^4.5.4"
+  },
+  "devDependencies": {
+    "@types/node": "^26.4.1",
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.7",
+    "@vitejs/plugin-react": "^5.2.0",
+    "electron": "^44.2.0",
+    "electron-vite": "^5.0.0",
+    "typescript": "^7.0.2",
+    "vite": "^7.3.6"
+  }
+}
