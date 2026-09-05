@@ -4,7 +4,7 @@
   "version": "0.1.0",
   "private": true,
   "license": "MIT",
-  "author": "ZJU Library Booker contributors",
+  "author": "CPbianma",
   "description": "ZJU Library Booker 桌面查询与预约预览工具",
   "type": "module",
   "main": "./out/main/index.js",

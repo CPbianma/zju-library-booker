@@ -2,6 +2,8 @@
 
 浙江大学图书馆预约系统的非官方本地查询与预约辅助工具，当前版本为 **0.1.0 初代版本**。
 
+维护者：[CPbianma](https://github.com/CPbianma)
+
 > 本项目与浙江大学及其图书馆没有官方隶属关系。请遵守学校和图书馆的服务条款，合理使用查询功能。
 
 项目现在包含 **ZJU Library Booker 桌面界面** 和原有命令行工具，支持主馆的：
@@ -29,6 +31,14 @@
 
 桌面版是本次 0.1.0 的主要使用入口。它只保存非敏感的收藏偏好；登录 Cookie、会话
 Token、手机号、用途和参与人信息不会提交到本仓库。
+
+## 界面预览
+
+初始界面不包含任何账号、密码、Token 或个人预约数据：
+
+![ZJU Library Booker desktop overview](docs/images/desktop-overview.png)
+
+登录窗口会在需要时单独打开，认证成功后自动隐藏；桌面版第一阶段只提供查询和预览。
 
 安装依赖并启动开发模式：
 
@@ -192,6 +202,8 @@ npm run build
 ```
 
 版本变更记录见 [`CHANGELOG.md`](CHANGELOG.md)。
+
+贡献者信息见 [`CONTRIBUTORS.md`](CONTRIBUTORS.md)。
 
 完整参数可执行：
 

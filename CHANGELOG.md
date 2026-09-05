@@ -2,6 +2,8 @@
 
 本文件记录 ZJU Library Booker 的公开版本变化。
 
+维护者：[CPbianma](https://github.com/CPbianma)
+
 ## [0.1.0] - 2026-09-05
 
 ### Added
